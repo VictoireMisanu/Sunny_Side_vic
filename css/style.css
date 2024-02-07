@@ -360,7 +360,29 @@ li {
 }
 
 /* ------------------ Responsive ---------------------  */
+@media screen and (max-width: 768px) {
+  .expertise--bg-apple {
+    background-image: url(./../images/mobile/image-graphic-design.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 80%;
+  }
+  
+  .expertise--bg-orange {
+    background-image: url(./../images/mobile/image-photography.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 100%;
+  }
 
+  .expertise__container {
+    display: flex;
+    flex-direction: column;
+    
+  }
+}
 @media screen and (max-width: 1024px) {
   .nav__list {
     display: none;
