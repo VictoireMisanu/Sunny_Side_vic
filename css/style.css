@@ -410,13 +410,24 @@ li {
   .expertise__description {
     padding-top: 25rem;
   }
-  .gallery {
-    background-image: url(./../images/mobile/image-gallery-milkbottles.jpg);
-    background-image: url(./../images/mobile/image-gallery-orange.jpg);
-    background-image: url(./../images/mobile/image-gallery-cone.jpg);
-    background-image: url(./../images/mobile/image-gallery-sugar-cubes.jpg);
-    flex-direction: row;
+  .galleryphoto {
+      display: flex;
+      display: grid;
+      grid-template-columns: 50% 50%;
   }
+  .gallery {
+    display: none;
+  }
+  
+  .gallery__item {
+    flex-basis: 25%;
+  }
+  
+  .gallery__picture {
+    width: 100%;
+    height: 100%;
+  }
+
   .footer {
     background-color: #90d4c5;
     color: var(--white-color);
@@ -442,4 +453,10 @@ li {
   .nav__hamburger {
     display: none;
   }
+  .galleryphoto {
+    display: none;
+}
+.gallery {
+  display: flex;
+}
 }
