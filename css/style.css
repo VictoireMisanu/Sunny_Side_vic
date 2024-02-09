@@ -444,6 +444,31 @@ li {
     margin: 3rem 0;
     padding-right: 190px;
   }
+  .boutons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    text-align: center;
+    margin: 3rem 0;
+    padding-right: 190px;
+  }
+  .boutons_réseaux {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-left: 250px;
+    align-items: center;
+  }
+  .facebook {
+    padding-right: 30px;
+  }
+  .instagram {
+    padding-right: 30px;
+  }
+  .twitter {
+    padding-right: 30px;
+  }
 }
 
 @media screen and (min-width: 1025px) {
@@ -458,5 +483,30 @@ li {
 }
 .gallery {
   display: flex;
+}
+.boutons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+  text-align: center;
+  margin: 3rem 0;
+  padding-right: 190px;
+}
+.boutons_réseaux {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-left: 250px;
+  align-items: center;
+}
+.facebook {
+  padding-right: 30px;
+}
+.instagram {
+  padding-right: 30px;
+}
+.twitter {
+  padding-right: 30px;
 }
 }
