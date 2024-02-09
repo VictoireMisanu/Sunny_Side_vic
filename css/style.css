@@ -387,10 +387,10 @@ li {
   .about {
     flex-direction: column-reverse;
   }
-  #about {
+  .about--image {
     flex-direction: column;
   }
-  #expertise_container {
+  .expertise--container {
     flex-direction: column;
   }
   /* -----#titre_paragraphe {
