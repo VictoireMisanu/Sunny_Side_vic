@@ -506,6 +506,9 @@ li {
 .gallery {
   display: flex;
 }
+.footer__nav{
+  margin: 3% 0%;
+}
 .boutons {
   display: flex;
   justify-content: center;
