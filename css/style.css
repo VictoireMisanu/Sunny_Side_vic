@@ -243,6 +243,7 @@ li {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  
 }
 
 .expertise--bg-orange {
@@ -250,6 +251,7 @@ li {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+
 }
 
 /* Testimonies */
@@ -377,12 +379,25 @@ li {
     padding-top: 100%;
   }
 
+<<<<<<< HEAD
   .expertise__container {
     display: flex;
     flex-direction: column;
     
   }
 }
+=======
+@media screen and (max-width: 768px) {
+  .expertise__container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .about1 {
+    flex-direction: column-reverse;
+  }
+}
+
+>>>>>>> 31dd850 (social medias added)
 @media screen and (max-width: 1024px) {
   .nav__list {
     display: none;
@@ -406,7 +421,7 @@ li {
     font-size: 1.5rem;
   }
 
-  .about {
+  .about1 {
     flex-direction: column-reverse;
   }
   .about--image {
